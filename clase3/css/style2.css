@@ -1,0 +1,42 @@
+*{
+	margin: 0px;
+	padding: 0px; 
+
+} 
+
+.box{
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	/*float: left;*/
+}
+
+#box1{
+	background-color: red;
+	position: absolute;
+	bottom: 25px; /* desde arriba baja 25 px*/
+	left: 300px;
+
+}
+
+#box2{
+	background-color: blue;
+	position: relative;	
+	margin-left: 200px;
+	top:20px;
+	left: 200px;
+}
+
+#hijo{
+	border: 1px solid yellow;
+	/*position: absolute;*/
+	position: relative;
+
+	top: 10 px;
+	left: 200px;
+}
+
+#box3{
+	background-color: #0081FF;
+
+}

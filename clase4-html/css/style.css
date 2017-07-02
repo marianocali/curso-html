@@ -1,0 +1,80 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+ul li{
+	text-align: center;
+	display: inline-block;
+	list-style-type: none;
+	border-bottom: 1px solid #95a5a6;
+	border-top: 1px solid #000;
+		
+}
+
+ul{
+	width: auto;
+	font-family: sans-serif;
+}
+
+ul li a{
+
+	display: inline-block;
+	padding: 10px 5px;
+	width: 150px;
+	text-decoration: none;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100&1+0,1+62,0.7+68,0+100;Blue+to+Transparent+Sharp */
+	background: -moz-linear-gradient(top,  rgba(30,87,153,1) 0%, rgba(89,148,202,1) 62%, rgba(95,154,207,0.7) 68%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(89,148,202,1) 62%,rgba(95,154,207,0.7) 68%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(30,87,153,1) 0%,rgba(89,148,202,1) 62%,rgba(95,154,207,0.7) 68%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 e si*/
+
+}
+
+ul li a:after{
+	content: url(../img/glyphicons/png/glyphicons-224-chevron-right.png);
+}
+
+/* estos seran los estilos del link normal */
+ul li a:link{
+	color: white;
+}
+
+/* estos seran los estilos despues de que hallan sido visitados*/
+ul li a:visited{
+	color: #ccc;
+}
+
+/* hover estos los estilos cuando paso el puntero sobre el link*/
+ul li a:hover{
+	color:white;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c4c4c+0,595959+12,666666+25,474747+39,2c2c2c+50,000000+51,111111+60,2b2b2b+77,1c1c1c+91,131313+100;Black+Gloss+%231 */
+	background: rgb(76,76,76); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 77%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 50%,rgba(0,0,0,1) 51%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 77%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 50%,rgba(0,0,0,1) 51%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 77%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+	
+}
+
+/*  los estilos cuando tengo pulsado el link*/
+ul li a:active{ 
+	background: #34495e;
+}
+/* se marca un bore alrededor del formulario */
+input:focus{
+	background: blue;
+	color: white;
+}
+
+p:first-letter{
+	font-size: 30px;
+}
+
+p:first-line{
+	color:red;
+}
+
+p:after{
+	content: url(../img/glyphicons/png/glyphicons-13-heart.png);
+}

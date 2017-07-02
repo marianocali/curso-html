@@ -1,0 +1,71 @@
+{
+	margin: 0px;
+	padding: 0px; 
+
+}
+
+.container{
+	width: 960px;				
+	border: 1px solid black;
+	margin: auto;
+	font: helvetica;
+	overflow:auto;    /* permite abrazar reconocer todos mis hijos sean float o no */
+} 
+
+#encabezado{
+	height: 200px;
+	width: 960px;
+	background-color: blue;
+}
+
+#top{
+	background-color: red;
+	height: 45px;
+	width: 960px;	
+}
+
+#top ul li{     /*   le quitan los bullets a
+ 				la lista que esta dentro de top*/
+	list-style: none;
+	color: white;
+	display: inline-block;	 
+}
+
+#principal{
+	height: 650px;
+	width: 500px;
+	float: left;
+}
+
+#lateral{
+	height: 650px;
+	width: 460px;	
+	float: left;
+	background-color: gray;
+	padding: 10px;
+}
+
+.box{
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	float: right;
+}
+
+#box1{
+	background-color: red;
+	/* float: left; /* posiciona de manera flotante la caja */
+
+}
+
+#box2{
+	background-color: violet;
+/*	float: left; /* posiciona de manera flotante la caja */
+
+}
+
+#box3{
+	background-color: #0081FF;
+/*	float: left; /* posiciona de manera flotante la caja */
+
+}

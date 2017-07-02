@@ -1,0 +1,15 @@
+div{
+	background-color: tomato;
+	width: 100%;
+	/*defino un ancho solo para explorer*/
+	*width: 50px;
+	font-size: 24px;
+}
+
+div p{
+	color: blue;
+}
+
+body:last-child div, x:-moz-any-link {
+	color: blue;
+}

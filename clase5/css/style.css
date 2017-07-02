@@ -1,0 +1,87 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+header{
+	background-color: black;
+	height: 300px;
+}
+#top{
+	height: 70px;
+	background-color: rgba(16,22,54,0.2);
+	width: 1170px;
+	margin: auto;
+	overflow: auto;
+
+}
+
+#logo{
+	color: white;
+	float: left;
+}
+
+
+#logo img{
+	padding: 5px 20px;
+}
+nav{
+	float: right;
+	color: white;
+	font-size: 13pt;
+	height: 70px;
+}
+
+nav ul{
+ line-height: 70px;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+
+nav li a{
+	color: white;
+	text-decoration: none;
+}
+
+nav li a:hover{
+	border-top: 2px solid #32b0ee;
+}
+
+nav li a:visited{
+color: #ccc
+}
+
+
+/*Estos son los estilos de la seccion features*/
+
+#features{
+	width: 1170px;
+	margin: auto;
+	padding:50px 0; 
+}
+
+#features h1{
+ color: #0eb493;
+ font-size: 28pt;
+ font-weight: bold;
+ text-align: center;
+}
+
+#features article{
+	width: 33%;
+	float: right;
+	margin-top: 70px;
+	padding: 15px;
+	box-sizing: border-box;
+
+}
+#articulo{
+	visibility: hidden; 
+}
+
